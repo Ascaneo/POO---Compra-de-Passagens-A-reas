@@ -1,0 +1,36 @@
+{
+  "name": "sistema-passagens-aereas-backend",
+  "version": "1.0.0",
+  "description": "Backend do Sistema de Compra de Passagens de Avião - Projeto Acadêmico de POO em TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test:sistema": "ts-node src/tests/testeSistema.ts"
+  },
+  "keywords": [
+    "typescript",
+    "poo",
+    "typeorm",
+    "sqlite",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "typeorm": "^0.3.20",
+    "sqlite3": "^5.1.7",
+    "reflect-metadata": "^0.2.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.2",
+    "@types/cors": "^2.8.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "nodemon": "^3.1.4"
+  }
+}
